@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">292,096</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.happiestminds.supertailsSearch.testRunner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1704562556633</td><td rowspan="2">18346</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.happiestminds.supertailsSearch.testRunner.TestRunner</td><td><a href="#m2">runScenario</a></td><td rowspan="5">1704562673770</td><td rowspan="5">83206</td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m6">runScenario</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with blank query without logging in&quot;</td><td>&quot;Feature to test basic search functionality for blank search query&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: showing results for blank query
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.happiestminds.supertailsSearch.pages.Page1_Search.verifyPageTitle(Page1_Search.java:216)
+	at com.happiestminds.supertailsSearch.scenarios.Scn_03_blankSearchQuery_steps.user_should_remain_on_the_same_page(Scn_03_blankSearchQuery_steps.java:27)
+	at ✽.: User should remain on the same page(file:///C:/Users/abhishek.yadav/eclipse-workspace/Supertails_Search-Selenium/src/test/resources/Features/03_blank_search_query.feature:10)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with invalid query: .&amp;^%$$%^&amp;() without logging in&quot;</td><td>&quot;Feature to test basic search functionality&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: search Results being displayed for invalid query
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.happiestminds.supertailsSearch.pages.Page2_SearchResults.verifySearchResultsForInvalidQuery(Page2_SearchResults.java:184)
+	at com.happiestminds.supertailsSearch.scenarios.Scn_01_02_searchFunctionalityWithoutLogin_steps.user_should_not_see_expected_results_on_the_search_results_page(Scn_01_02_searchFunctionalityWithoutLogin_steps.java:118)
+	at ✽.: User should not see expectedResults on the search Results page(file:///C:/Users/abhishek.yadav/eclipse-workspace/Supertails_Search-Selenium/src/test/resources/Features/01_02_search_functionality_without_login.feature:28)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with valid query: pedigree after logging in&quot;</td><td>&quot;Feature to test basic search functionality after logging in&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with invalid query: afn;gaigeg without logging in&quot;</td><td>&quot;Feature to test basic search functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with valid query: litter without logging in and applying filters&quot;</td><td>&quot;Feature to test advanced search functionality after applying filters&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with valid query: henlo without logging in and applying filters&quot;</td><td>&quot;Feature to test advanced search functionality after applying filters&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.happiestminds.supertailsSearch.testRunner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search with valid query: pedigree without logging in&quot;</td><td>&quot;Feature to test basic search functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

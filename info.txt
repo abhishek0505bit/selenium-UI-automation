@@ -1,0 +1,38 @@
+EVERTYTHING DONE: ✔✔✔✔
+
+
+*selenium project(IMPORTANT):(search module to payment gateway)done
+	    1. Explore the application and understand the purpose 
+	    	of the application.(Test Scenario Excel file)[****DONE****]✅✅
+	    	
+    	2. Derive some of the Positive & Negative Test Scenario's.
+    	(Test Scenario )(Login and search),(without login and search )[****DONE****]✅✅
+    	
+    	3. Automate the Test Scripts using 'Page Factory Object' Framework.
+    	(use pfo framework)[****DONE****]✅✅
+    	
+   		4. Test Script should support multiple browsers.
+   		(should handle edge, chrome, and firefox)[****DONE****]✅✅
+   		
+		5. Use Parameterization concept, for passing the Test Data.
+		(parameterization concept: one code multiple data)[excel ✅✅]
+		
+		6. Use Assert statment, where ever to compare the Expected with Actual.
+		(use assertions wherever required)✅✅ but check once again
+		
+		7. Capture the Screen Shot, where ever required.[****DONE****]✅✅
+		
+		8. Generate Test Reports.
+		(cucumber report, testng report, extent report, allure report )
+			reports will be stored as: 	testng report	: test-output/emailable-report.html, index.html ✅
+							cucumber report	: test/cucumber-reports.html✅
+							allure report 	: allure serve✅
+							extent report	: target/reports/extent-report.html✅✅
+							
+						extent logger and logger in every method
+						logger in scenarios 
+		comments
+		
+challenges:
+
+some of the xpaths are being changed by the developer, so it might need some updation on the xpaths 
